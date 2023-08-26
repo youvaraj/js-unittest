@@ -34,7 +34,7 @@ You can organize the module files and test files the way you wanted. It is usual
 - Import the expect from Jest to perform assertion
   Write test functions using Jest's testing functions like test, describe, and expect. For example below
 
-![My_Image](SampleSpec.png)
+  ![My_Image](SampleSpec.png)
 
 ### Executing program
 
