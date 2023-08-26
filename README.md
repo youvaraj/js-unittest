@@ -23,22 +23,6 @@ These are already added in package.json. Go directly to # Installing
   npm install
   ```
 
-### Setup / Folder structure
-
-- All the functions to be tested are in the src and sub folders
-- All the corresponding tests are inside the test folder within respective sub folders
-
-* NOTE : You should have corresponding test file for each module you are testing. The way it works is if you have a module called the demo we are using reqres.in ( A hosted REST-API ready to respond) site for testing.
-
-- You can go ahead and change the API end point and updated your base api url at config/config.js
-
-```
-module.exports = {
-apiUrl: 'https://reqres.in/api/users',
-}
-
-```
-
 ### Executing program
 
 - Go to the root folder in terminal and run the command
@@ -49,9 +33,14 @@ npm test
 
 ## Screenshot
 
-Once the test execution done you shoudl see the following in your terminal.
+Once the test execution done you shoudld see the following in your terminal.
 
-![My_Image](test-results.png)
+![My_Image](TestResultsSample.png)
+
+## Misc
+
+Follow this link if you want to create new jest project from scratch.
+[How to create new project ? ](HOWTO.md)
 
 ## Authors
 
